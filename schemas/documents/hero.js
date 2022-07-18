@@ -82,6 +82,7 @@ export default {
         "This field works only for 'half' variant with reverse set to 'true'.",
       group: "options",
       initialValue: false,
+      hidden: ({document}) => document?.variant != 'half'
     },
     {
       name: "baseLayout",
