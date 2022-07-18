@@ -10,6 +10,7 @@ import category from "./documents/category";
 import feature from "./documents/feature";
 import hero from "./documents/hero";
 import navigationLink from "./documents/navigationLink";
+import listingBlock from "./documents/listingBlock"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -25,5 +26,6 @@ export default createSchema({
     feature,
     hero,
     navigationLink,
+    listingBlock,
   ]),
 });

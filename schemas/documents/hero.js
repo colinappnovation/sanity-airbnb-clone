@@ -39,7 +39,7 @@ export default {
       name: "text",
       title: "Text",
       type: "array",
-      of: [{ type: "block" }],
+      of: [{ type: "block" }, { type: "listingBlock"}, {type: "image"}],
       group: "main",
     },
     {
@@ -61,7 +61,7 @@ export default {
       name: "reverse",
       title: "Reverse",
       type: "boolean",
-      description: "Flip the image and text",
+      description: "Flip the image and text <->",
       group: "options",
       initialValue: false,
     },
