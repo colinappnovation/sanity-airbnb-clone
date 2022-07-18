@@ -1,7 +1,10 @@
+import { FaSuperpowers } from 'react-icons/fa'
+
 export default {
   name: "hero",
   title: "Hero",
   type: "document",
+  icon: FaSuperpowers,
   groups: [
     {
       name: "main",
