@@ -42,7 +42,7 @@ export default {
       name: "text",
       title: "Text",
       type: "array",
-      of: [{ type: "block" }, { type: "listingBlock"}, {type: "image"}],
+      of: [{ type: "block" }, { type: "listingBlock" }, { type: "image" }, { name: "listing", title: "Listing Blocks", type: "reference", to: { type: "listingBlock" } }],
       group: "main",
     },
     {
@@ -85,7 +85,7 @@ export default {
         "This field works only for 'half' variant with reverse set to 'true'.",
       group: "options",
       initialValue: false,
-      hidden: ({document}) => document?.variant != 'half'
+      hidden: ({ document }) => document?.variant != 'half'
     },
     {
       name: "baseLayout",

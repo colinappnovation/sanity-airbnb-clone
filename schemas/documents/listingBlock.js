@@ -1,11 +1,3 @@
-// icon
-// icon size
-// icon background color
-// image
-// body - rich text
-// vertical - boolean
-
-
 export default {
     name: 'listingBlock',
     title: 'Listing Block',
@@ -15,18 +7,28 @@ export default {
         title: "Icon",
         type: "string",
         options: {
-            list: [{ title: '', value: '' }]
+            list: [
+                { title: 'Bullet', value: 'Bullet' },
+                { title: 'Bullhorn', value: 'Bullhorn' },
+                { title: 'Check', value: 'Check' },
+                { title: 'Check Circle', value: 'CheckCircle' },
+                { title: 'Check Squre', value: 'CheckSquare' },
+                { title: 'Chevron Circle Down', value: 'ChevronCircleDown' },
+                { title: 'Chevron Circle Right', value: 'ChevronCircleRight' },
+                { title: 'Comment', value: 'Comment' },
+            ]
         }
     },
     {
         name: "iconSize",
         title: "Icon Size",
         type: "string",
-        optons: {
+        options: {
             list: [{ title: 'Base', value: 'base' },
-            { title: 'Large', value: 'large' },
             { title: 'Small', value: 'small' },
-            { title: 'Meduim', value: 'meduim' }]
+            { title: 'Meduim', value: 'meduim' },
+            { title: 'Large', value: 'large' },
+            ]
         }
     },
     {
