@@ -127,7 +127,7 @@ export default {
       type: "string",
       options: {
         list: [
-          { title: "Grau", value: "grau" },
+          { title: "Grau", value: "grau"},
           { title: "Hintergrund-Grau", value: "hintergrund-grau" },
           { title: "Karten-Blau", value: "karten-blau" },
           { title: "Support PWA Green", value: "support-pwa-green" },
